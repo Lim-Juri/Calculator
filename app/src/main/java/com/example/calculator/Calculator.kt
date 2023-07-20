@@ -62,9 +62,9 @@ fun inputMyInfo(type:String): Any? {
                         return originop
                     } else {
                         println("다른 연산자를 입력해주세요.")
-                }
-            } catch (e:Exception) {
-            println("다른 연산자를 입력해주세요.")
+                    }
+                } catch (e:Exception) {
+                    println("다른 연산자를 입력해주세요.")
                 }
             }
         }
@@ -85,4 +85,3 @@ fun inputMyInfo(type:String): Any? {
         }
     }
 }
-    
